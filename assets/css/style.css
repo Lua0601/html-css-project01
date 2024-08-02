@@ -51,10 +51,9 @@ a {
 .fixed-header {
     background: #e6f0ff;
     padding-top: 26px;
-    position: relative;
+    position: sticky;
     top: -26px;
     z-index: 1;
-    height: 100vh;
 }
 
 .hero-wrap {
@@ -64,7 +63,7 @@ a {
     justify-content: center;
     background: #e6f0ff;
     height: calc(100vh - 90px);
-    margin-left: 21%;
+    padding-left: 21%;
 }
 
 .navbar {
